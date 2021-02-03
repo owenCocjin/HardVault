@@ -46,20 +46,20 @@ x^y*(d*y)+t*(x^y)
 Below is a chart of the bruteforce attempt times:
 | # of Directions | # of Chars | Debounce Time | Max Crack Time |
 | --- | --- | --- | --- |
-| 4 | 4 | 25ms | 4m15s |
-| 4 | 6 | 25ms | 1h42m |
-| 4 | 8 | 25ms | 36h24m |
-| 8 | 4 | 25ms | 1h8m |
-| 8 | 6 | 25ms | 4d13h |
-| 8 | 8 | 25ms | 1y23d |
-| 4 | 4 | 35ms | 5m58s |
-| 4 | 6 | 35ms | 2h23m |
-| 4 | 8 | 35ms | 2d3h |
-| 8 | 4 | 35ms | 1h35m |
-| 8 | 6 | 35ms | 6d9h |
-| 8 | 8 | 35ms | 1y178d |
+| 4 | 4 | 250ms | 4m15s |
+| 4 | 6 | 250ms | 1h42m |
+| 4 | 8 | 250ms | 36h24m |
+| 8 | 4 | 250ms | 1h8m |
+| 8 | 6 | 250ms | 4d13h |
+| 8 | 8 | 250ms | 1y23d |
+| 4 | 4 | 350ms | 5m58s |
+| 4 | 6 | 350ms | 2h23m |
+| 4 | 8 | 350ms | 2d3h |
+| 8 | 4 | 350ms | 1h35m |
+| 8 | 6 | 350ms | 6d9h |
+| 8 | 8 | 350ms | 1y178d |
 
-Here is a table comparing with vs without failed login timeouts (with 25ms debounce time):
+Here is a table comparing with vs without failed login timeouts (with 250ms debounce time):
 | # of Directions | # of Chars | Failed Login T/O | Max Crack Time |
 | --- | --- | --- | --- |
 | 4 | 4 | 0s | 4m15s |
@@ -74,9 +74,9 @@ Here is a table comparing with vs without failed login timeouts (with 25ms debou
 
 Overall, using more directions is vastly better than any of the other options, but if for whatever reason this isn't possible, the other options provide better security.
 
-- Fastest performance: 4 dirs, 4 chars, 0 FLT/O, 25ms Debounce
-- Best overall: 4 dirs, 6 chars, 1.5s FLT/O, 35ms Debounce
-- Best security: 8 dirs, 8 chars, 3s FLT/O, 35ms Debounce
+- Fastest performance: 4 dirs, 4 chars, 0 FLT/O, 250ms Debounce
+- Best overall: 4 dirs, 6 chars, 1.5s FLT/O, 350ms Debounce
+- Best security: 8 dirs, 8 chars, 3s FLT/O, 350ms Debounce
 
 [Here](https://github.com/owenCocjin/HardVault/blob/master/hardvault_bruteforce_times.xlsx "Bruteforce Times") is the datasheet used for the calculations.
 
