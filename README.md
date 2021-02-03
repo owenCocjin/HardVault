@@ -2,7 +2,7 @@
 > Pics, files, and schematics on my PPM project
 
 ## About
-I never save my passwords when a browser asks me to because if I don't constantly type it in I'll forget it. I don't want to use a password manager because if I have to login on a different machine I won't have access to the manager (don't quote me on this). My solution was to make my own __P__hysical __P__assword __M__anager that I can carry anywhere!
+I never save my passwords when a browser asks me to because if I don't constantly type it in I'll forget it. I don't want to use a password manager because if I have to login on a different machine I won't have access to the manager (don't quote me on this). My solution was to make my own <b>P</b>hysical <b>P</b>assword <b>M</b>anager that I can carry anywhere!
 
 This device is motion controlled. To navigate the menu, you tilt the device then click a button. By default the device hides the passwords. This is because you can plus the device into a computer (or potentially a phone) and write the password straight to the form.
 
