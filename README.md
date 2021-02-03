@@ -76,7 +76,9 @@ Overall, using more directions is vastly better than any of the other options, b
 
 - Fastest performance: 4 dirs, 4 chars, 0 FLT/O, 25ms Debounce
 - Best overall: 4 dirs, 6 chars, 1.5s FLT/O, 35ms Debounce
-- Best ssecurity: 8 dirs, 8 chars, 3s FLT/O, 35ms Debounce
+- Best security: 8 dirs, 8 chars, 3s FLT/O, 35ms Debounce
+
+[Here](https://github.com/owenCocjin/HardVault/blob/master/hardvault_bruteforce_times.xlsx "Bruteforce Times") is the datasheet used for the calculations.
 
 ---
 
