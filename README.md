@@ -11,13 +11,13 @@ This device is motion controlled. To navigate the menu, you tilt the device then
 ## Schematics/Pics
 > The "Schematics" directory has all the files from KiCAD.
 
-[ppm guts](https://github.com/owenCocjin/HardVault/blob/master/Pics/hardware.jpg "PPM Hardware")
+![ppm guts](https://github.com/owenCocjin/HardVault/blob/master/Pics/hardware.jpg "PPM Hardware")
 
-[ppm everything](https://github.com/owenCocjin/HardVault/blob/master/Pics/disassembled.jpg "PPM disassembled")
+![ppm everything](https://github.com/owenCocjin/HardVault/blob/master/Pics/disassembled.jpg "PPM disassembled")
 
-[ppm shell](https://github.com/owenCocjin/HardVault/blob/master/Pics/case_layered.jpg)
+![ppm shell](https://github.com/owenCocjin/HardVault/blob/master/Pics/case_layered.jpg)
 
-[ppm schematic](https://github.com/owenCocjin/HardVault/blob/master/Pics/ppm_schematic.png "Circuit Schematic")
+![ppm schematic](https://github.com/owenCocjin/HardVault/blob/master/Pics/ppm_schematic.png "Circuit Schematic")
 
 ## Current Drawbacks/Future Updates
 > There are still a couple things I'd like to address, probably in the far future:
