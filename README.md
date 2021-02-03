@@ -21,7 +21,12 @@ This device is motion controlled. To navigate the menu, you tilt the device then
 
 ## Current Drawbacks/Future Updates
 > There are still a couple things I'd like to address, probably in the far future:
-- There is currently no login page (just a demo). The goal is to make a "something you do" password. This would me a sequence of directional tilts made by tilting the device then clicking the button. The password would also be used to encrypt the passwords, which are currently plaintext stored in the flash code of the arduino.
+- There is currently no login page (just a demo). The goal is to make a "something you do" password. This would be a sequence of directional tilts made by tilting the device then clicking the button. The password would also be used to encrypt the passwords, which are currently plaintext stored in the flash code of the arduino.
 	- This page will also address failed logins
 - The passwords are all hard-coded in plaintext in the arduino's code. I want to move these somewhere else. There is potential to add an EEPROM or another storage medium to save these passwords.
 - To change passwords you need to edit the source code. Preferably, this could be done through serial after the user logs into the device.
+- Currently, the device is powered via usb. If you can't plug the device in, it becomes just a waste of plastic! I need to add battery power, which means re-design the CAD, add wiring (literally just wires to the arduino GND and RAW), and add a power switch. 
+
+## Straight Up Fixin'
+- The top & bottom cases don't fit well. This is [probably] because the `ProMicroRest` on the top case is too long.
+- The code is kinda nasty! in the `isr_core()` function there are 4 `if` statements?!?! Gross. Turn that into an array of functions instead. Yummy!
